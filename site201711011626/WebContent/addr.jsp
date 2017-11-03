@@ -22,7 +22,7 @@
                     fullAddr = data.roadAddress;
 
                 } else { 
-                    fullAddr = data.jibunAddress;
+                    fullAddr = data.jibunAddress;     
                 }
 				//dfddddddddddddddddddddddddddd 이걸추가했지롱 찾아봐라씨발!!!
                 // 사용자가 선택한 주소가 도로명 타입일때 조합한다.
