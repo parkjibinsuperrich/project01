@@ -21,10 +21,10 @@
                 if (data.userSelectedType === 'R') { // 사용자가 도로명 주소를 선택했을 경우
                     fullAddr = data.roadAddress;
 
-                } else { // 사용자가 지번 주소를 선택했을 경우(J)
+                } else { 
                     fullAddr = data.jibunAddress;
                 }
-
+				//dfddddddddddddddddddddddddddd 이걸추가했지롱 찾아봐라씨발!!!
                 // 사용자가 선택한 주소가 도로명 타입일때 조합한다.
                 if(data.userSelectedType === 'R'){
                     //법정동명이 있을 경우 추가한다.
